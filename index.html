@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cont">
+
+        <h3>Sign In</h3>
+
+        <div class="input-group">
+
+            <input class="input" required autocomplete="off" type="text" name="username" id="username">
+            <label class="label1" for="username">Username</label>
+
+            <input class="pass" required autocomplete="off" type="password" name="password" id="password">
+            <label class="pass-label" for="password">Password</label>
+
+            <input type="checkbox" name="show-password" id="show-password" onclick="showpass()">
+            <label class="label-check" for="show-password">Show Password.</label>
+        </div>
+
+        <input class="sub" type="button" value="Submit">
+
+    </div>
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
